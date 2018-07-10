@@ -1,0 +1,11 @@
+name: "Kendra M Wu"
+output_dir: "."
+navbar:
+  title: "Academic Website"
+  left:
+    - text: "Overview"
+      href: index.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Contacts"
+      href: contacts.html
