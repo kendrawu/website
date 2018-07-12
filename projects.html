@@ -311,14 +311,20 @@ div.tocify {
 <h1>Selected Project</h1>
 <p>Wu KM, Riley S. Estimation of the basic reproductive number and mean serial interval of a novel pathogen in a small, well-observed discrete population. <em>PLoS One</em> 2016, 11(2): e0148061. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0148061">[link]</a></p>
 <p><strong>Author’s Summary</strong><br />
-<em>Why Was This Study Done?</em><br />
+## Why Was This Study Done?<br />
 Accurately assessing the transmissibility and average time between each infection pair of a novel human pathogen is public health priority so that the timing and required strength of interventions may be determined. Recent theoretical work has focused on making best use of data from the initial exponential phase of growth of incidence in large populations. This study attempted to extend the work to assess the data of all phases of an epidemic in populations of all sizes, including small populations.</p>
-<p><em>Methods</em><br />
-We measured generational transmissibility by the basic reproductive number <span class="math inline">\(R_0\)</span> (the average number of infected cases per each typical infector in a susceptible population) and the serial interval (average time between successive cases) by its mean <span class="math inline">\(T_g\)</span>. First, we constructed a simulation algorithm for case data arising from a small population of known size with <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> also known. We then developed an inferential model for the likelihood of these case data as a function of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span>. The model was designed to capture a) any signal of the serial interval distribution in the initial stochastic phase b) the growth rate of the exponential phase and c) the unique combination of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> that generates a specific shape of peak incidence when the susceptible portion of a small population is depleted.</p>
-<p><em>Conclusions</em><br />
-The basic reproductive number and mean serial interval can be estimated simultaneously in real time during an outbreak of an emerging respiratory pathogen.</p>
-<p><em>What Do These Findings Mean?</em><br />
-Repeated application of these methods to small scale outbreaks at the start of an epidemic would permit accurate estimates of key parameters.</p>
+<div id="methods" class="section level2">
+<h2>Methods</h2>
+<p>We measured generational transmissibility by the basic reproductive number <span class="math inline">\(R_0\)</span> (the average number of infected cases per each typical infector in a susceptible population) and the serial interval (average time between successive cases) by its mean <span class="math inline">\(T_g\)</span>. First, we constructed a simulation algorithm for case data arising from a small population of known size with <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> also known. We then developed an inferential model for the likelihood of these case data as a function of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span>. The model was designed to capture a) any signal of the serial interval distribution in the initial stochastic phase b) the growth rate of the exponential phase and c) the unique combination of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> that generates a specific shape of peak incidence when the susceptible portion of a small population is depleted.</p>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<p>The basic reproductive number and mean serial interval can be estimated simultaneously in real time during an outbreak of an emerging respiratory pathogen. <img src="figures/Fig1.PNG" alt="Parameter estimation from simulated daily data: Part a shows real-time univariate estimates of R_0 in which the true value of T_g was assumed known. Part b shows real-time univariate estimates of T_g with R_0 assumed known. The results of jointly estimating R_0 and T_g are shown in parts c (R_0) and d (T_g). This scenario is with R_0 = 1.8, T_g = 2.5. The epidemic was simulated in a population of 1,000 people all of whom were initially susceptible, other than 50 who were infectious on day 1. Grey lines trace the corresponding estimates of 8 arbitrary epidemics. Black lines represent the average of 100 estimates at that time point, red lines represent the median, and the green dotted lines are the 5% and 95% prediction intervals for 100 epidemics. The dark blue solid horizontal lines show the true parameter values" /></p>
+</div>
+<div id="what-do-these-findings-mean" class="section level2">
+<h2>What Do These Findings Mean?</h2>
+<p>Repeated application of these methods to small scale outbreaks at the start of an epidemic would permit accurate estimates of key parameters.</p>
+</div>
 </div>
 
 <html>
