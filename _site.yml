@@ -3,9 +3,16 @@ output_dir: "."
 navbar:
   title: "Academic Website"
   left:
-    - text: "Overview"
-      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Projects"
+      href: projects.html
     - text: "Publications"
       href: publications.html
     - text: "Contacts"
       href: contacts.html
+output:
+  html_document:
+    theme: cosmo
+    include:
+      after_body: footer.html
