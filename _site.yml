@@ -14,5 +14,6 @@ navbar:
 output:
   html_document:
     theme: cosmo
+    fig_caption: true
     include:
       after_body: footer.html
