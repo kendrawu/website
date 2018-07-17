@@ -1,7 +1,7 @@
 name: "Kendra M Wu"
 output_dir: "."
 navbar:
-  title: "Academic Website"
+  title: "Home"
   left:
     - text: "About"
       href: about.html
