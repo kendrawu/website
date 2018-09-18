@@ -1,2 +1,2 @@
 # webpage
-My academic webpage
+My academic website
