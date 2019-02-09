@@ -5,8 +5,8 @@ navbar:
   left:
     - text: "About"
       href: about.html
-    #- text: "Projects"
-    #  href: projects.html
+    %- text: "Projects"
+    %  href: projects.html
     - text: "Publications"
       href: publications.html
     - text: "Talks"
