@@ -9,8 +9,8 @@ navbar:
     #  href: projects.html
     - text: "Publications"
       href: publications.html
-    - text: "Talks"
-      href: talks.html
+    #- text: "Talks"
+    #  href: talks.html
     - text: "Contacts"
       href: contacts.html
 output:
