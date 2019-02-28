@@ -11,7 +11,7 @@ navbar:
       href: publications.html
     #- text: "Talks"
     #  href: talks.html
-    - text: "Contacts"
+    - text: "Connect"
       href: contacts.html
 output:
   html_document:
