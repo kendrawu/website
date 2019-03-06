@@ -1,0 +1,18 @@
+---
+title: "Connect with me"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[![](./figures/email_small.png)](mailto:kendrawu@connect.hku.hk) 
+[![](./figures/twitter_small.png)](http://www.twitter.com/KendraMWu) 
+[![](./figures/github_small.png)](https://github.com/kendrawu) 
+[![](./figures/orcid_small.png)](https://orcid.org/0000-0001-6464-4874)
