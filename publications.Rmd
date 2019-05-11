@@ -35,4 +35,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Report
 ## Public policy
-(1) Chow BC, Kim S, Chen KC, **Wu KM**, Bradfield AJ, Zheng J, Hong SI, Huang WYJ. Research study on the mode of subvention to National Sports Association and Sports Organisations in Hong Kong and other overseas cities or countries. Leisure and Cultural Services Department, The Government of Hong Kong Special Administrative Region. May 2019.
+(1) Chow BC, Kim S, Chen KC, **Wu KM**, Bradfield AJ, Zheng J, Hong SI, Huang WYJ. Research study on the mode of subvention to National Sports Association and Sports Organisations in Hong Kong and other overseas cities or countries. *Leisure and Cultural Services Department, The Government of Hong Kong Special Administrative Region*. May 2019.
