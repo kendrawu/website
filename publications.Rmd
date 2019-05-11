@@ -12,7 +12,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Infectious disease epidemiology
+# Refereed Journal Publications
+## Infectious disease epidemiology
 (1)	**Wu KM**, Riley S. Estimation of the basic reproductive number and mean serial interval of a novel pathogen in a small, well-observed discrete population. *PLoS One* 2016, 11(2): e0148061 [[link]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0148061)[[source code]](https://github.com/kendrawu/EpiInference)
 (2)	**Wu KM**, Riley S. Simulated-guided design of serological surveys of the cumulative incidence of influenza infection. *BMC Infect Dis* 2014, 14: 505 [[link]](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-505)
 (3)	Kwok KO, Cowling BJ, Wei VW, **Wu KM**, Read JM, Lessler J, Cummings DA, Peiris JS, Riley S. Social contacts and the locations in which they occur as risk factors for influenza infection. *Proc R Soc B* 2014, 281(1789): 20140709 [[link]](http://rspb.royalsocietypublishing.org/content/281/1789/20140709)
@@ -20,10 +21,10 @@ knitr::opts_chunk$set(echo = TRUE)
 (5)	Riley S, Kwok KO, **Wu KM**, Ning DY, Cowling BJ, Wu JT, Ho LM, Tsang T, Lo S-V, Chu DKW, Ma ESK, Peiris JSM. Epidemiological characteristics of 2009 (H1N1) pandemic influenza based on paired sera from a longitudinal community cohort study. *PLoS Med* 2011, 8(6): e1000442 [[link]](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000442)
 (6)	**Wu KM**. Avian influenza and the wet markets in Hong Kong. *The Lancet Student*. 24 July 2008 [[link]](http://www.thelancetstudent.com/2008/07/24/avian-influenza-and-the-wet-markets-in-hong-kong/)
 
-# Epidemoilogy of aging \& geriatric medicine
+## Epidemoilogy of aging \& geriatric medicine
 (7) Chu SKW, Huang H, Wong WNM, van Ginneken W, **Wu KM**, Hung GMY. Quality and clarity of health information on Q&A sites. *Library and Information Science Research* 2018, 40(3): 237-244 [[link]](https://doi.org/10.1016/j.lisr.2018.09.005)
 
-# Maternal and infant health
+## Maternal and infant health
 (8)	Tarrant M, Lok KY, Fong DY, **Wu KM**, Lee IL, Sham A, Lam C, Bai DL, Wong KL, Wong EM, Chan NP, Dodgson JE. Effect on baby-friendly hospital steps when hospitals implement a policy to pay for infant formula. *J Hum Lact* 2016, 32(2): 238-249 [[link]](http://journals.sagepub.com/doi/abs/10.1177/0890334415599399?journalCode=jhla)
 (9)	Tarrant M, Lok KY, Fong DY, Lee IL, Sham A, Lam C, **Wu KM**, Bai DL, Wong KL, Wong EM, Chan NP, Dodgson JE. Effect of a hospital policy of not accepting free infant formula on in-hospital formula supplementation rates and breast-feeding duration. *Public Health Nutr* 2015, 18(14): 2689-2699 [[link]](https://www.cambridge.org/core/journals/public-health-nutrition/article/effect-of-a-hospital-policy-of-not-accepting-free-infant-formula-on-inhospital-formula-supplementation-rates-and-breastfeeding-duration/0F0C56D3C0CF36B5BAAA413E007D78EC#)
 (10) Tarrant M, Dodgson JE, **Wu KM**. Factors contributing to early breast-feeding cessation among Chinese mothers: an exploratory study. *Midwifery*. 2014, 30(10): 1088-1095 [[link]](https://www.sciencedirect.com/science/article/pii/S0266613814000679?via%3Dihub)
@@ -31,3 +32,7 @@ knitr::opts_chunk$set(echo = TRUE)
 (12) Bai DL, **Wu KM**, Tarrant M. Association between intrapartum interventions and breastfeeding duration. *J Midwifery Women's Health*. 2013, 58(1): 25-32 [[link]](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1542-2011.2012.00254.x)
 (13) Tarrant AM, **Wu KM**, Fong DYT, Lee ILY, Wong EMY, Sham A, Lam C, Dodgson JE. Impact of baby-friendly hospital practices on breastfeeding in Hong Kong. *Birth* 2011, 38(3): 238-245 [[link]](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1523-536X.2011.00483.x)
 (14) Tarrant AM, Fong DYT, **Wu KM**, Lee ILY, Sham A, Lam C, Dodgson JE. Breastfeeding and weaning practices among Hong Kong mothers: a prospective study. *BMC Pregnancy Childbirth* 2010, 10: 27 [[link]](https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/1471-2393-10-27)
+
+# Report
+## Public policy
+(1) Chow BC, Kim S, Chen KC, **Wu KM**, Bradfield AJ, Zheng J, Hong SI, Huang WYJ. Research study on the mode of subvention to National Sports Association and Sports Organisations in Hong Kong and other overseas cities or countries. Leisure and Cultural Services Department, The Government of Hong Kong Special Administrative Region. May 2019.

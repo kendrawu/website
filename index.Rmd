@@ -1,5 +1,5 @@
 ---
-title: "Kendra M Wu"
+title: "Kendra M. Wu"
 output: 
   html_document:
     toc: true
@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <img src="figures/my_photo.jpg" style="width:20%; border:10px solid; margin-right: 20px; margin-left: 20px" align="right">
 
 # About
-Dr. Kendra M Wu is an engineer and a theoretical epidemiologist. She is getting started at [University of Oxford](http://www.ox.ac.uk) as a Postdoctoral Researcher in Statistical/ Mathematical Modelling of Infectious Diseases at the [Centre for Tropical Medicine and Global Health](https://www.tropicalmedicine.ox.ac.uk) of [Nuffield Department of Clinical Medicine](https://www.ndm.ox.ac.uk), where she works on mathematical analysis of infectious disease outbreaks in low and middle income countries (LMICs). Recently, her focus has been on Ebola Virus Disease (EVD).
+Dr. Kendra M. Wu is an engineer and a theoretical epidemiologist. She is a Postdoctoral Researcher in Statistical/ Mathematical Modelling of Infectious Diseases at the [Centre for Tropical Medicine and Global Health](https://www.tropicalmedicine.ox.ac.uk) of [Nuffield Department of Clinical Medicine](https://www.ndm.ox.ac.uk), [University of Oxford](http://www.ox.ac.uk), where she works on mathematical analysis of infectious disease outbreaks in low and middle income countries (LMICs). Recently, her focus has been on Ebola Virus Disease (EVD).
 
 # Research Interests
 * Infectious disease epidemiology and control
