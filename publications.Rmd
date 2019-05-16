@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 (5)	Riley S, Kwok KO, **Wu KM**, Ning DY, Cowling BJ, Wu JT, Ho LM, Tsang T, Lo S-V, Chu DKW, Ma ESK, Peiris JSM. Epidemiological characteristics of 2009 (H1N1) pandemic influenza based on paired sera from a longitudinal community cohort study. *PLoS Med* 2011, 8(6): e1000442 [[link]](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000442)
 (6)	**Wu KM**. Avian influenza and the wet markets in Hong Kong. *The Lancet Student*. 24 July 2008 [[link]](http://www.thelancetstudent.com/2008/07/24/avian-influenza-and-the-wet-markets-in-hong-kong/)
 
-## Epidemoilogy of aging \& geriatric medicine
+## Geriatric medicine
 (7) Chu SKW, Huang H, Wong WNM, van Ginneken W, **Wu KM**, Hung GMY. Quality and clarity of health information on Q&A sites. *Library and Information Science Research* 2018, 40(3): 237-244 [[link]](https://doi.org/10.1016/j.lisr.2018.09.005)
 
 ## Maternal and infant health
