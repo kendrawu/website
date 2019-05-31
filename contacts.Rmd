@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-[![](./figures/email_small.png)](mailto:kendrawu@connect.hku.hk) 
+[![](./figures/email_small.png)](mailto:kendra.wu@ndm.ox.ac.uk) 
 [![](./figures/twitter_small.png)](http://www.twitter.com/KendraMWu) 
 [![](./figures/github_small.png)](https://github.com/kendrawu) 
 [![](./figures/orcid_small.png)](https://orcid.org/0000-0001-6464-4874)
