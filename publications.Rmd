@@ -11,7 +11,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-Some of the following publications are behind paywall. For an electronic copy, please feel free to contact me.
+Some of the following publications are behind paywall. For an electronic copy, please feel free to [contact me](http://kendrawu.github.io/website/contacts.html).
 
 # Refereed Journal Publications
 ## Infectious disease epidemiology
