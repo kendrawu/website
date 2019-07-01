@@ -32,4 +32,4 @@ Here is a word cloud generated from the text of her publications:
 * Global health
 
 # Current Project
-* ADAGIO
+* [ADAGIO](https://kendrawu.github.io/website/about.html#research)
