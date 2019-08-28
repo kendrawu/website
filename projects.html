@@ -12,7 +12,7 @@
 
 
 
-<title>Brief Bio</title>
+<title>Projects Highlights</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -363,20 +363,42 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Brief Bio</h1>
+<h1 class="title toc-ignore">Projects Highlights</h1>
 
 </div>
 
 
-<div id="research" class="section level1">
-<h1>Research</h1>
-<p>Kendra Wu is a theoretical epidemiologist currently working as <a href="https://ergo.tghn.org/contact/kendra-wu">Postdoctoral Researcher in Statistical/ Mathematical Modelling of Infectious Diseases</a> at the <a href="https://www.tropicalmedicine.ox.ac.uk">Centre for Tropical Medicine and Global Health</a> of <a href="https://www.ndm.ox.ac.uk">Nuffield Department of Clinical Medicine</a> at <a href="http://www.ox.ac.uk">University of Oxford</a>. Her research uses mathematics and statistics to study the who, when, where, and why of various infectious diseases. In greater details, she combines empirical data with computational tools, such as mathematical and statistical models, to study the transmission mechanisms of infectious diseases in order to quantify the risk, severity, and patterns of the spread of diseases under different scenarios. These investigations aim to gain insights into the science of infectious disease transmission, inform the design of more effective treatment options, prevention strategies, and control interventions, as well as to prepare the community and the healthcare sector for the amount and nature of the casualties they will get in case of an outbreak.</p>
-<p>Kendra’s focus has been on emerging and re-emerging pathogens, including respiratory pathogens, and more recently filoviruses and other priority pathogens focus by the World Health Organization and UK Vaccine Network. Currently at Oxford, she is a key member of a multi-institution NIHR project Adaptive Design And Genomics in Outbreaks (<strong>ADAGIO</strong>), in which she is designing, implementing, and evaluating a novel vaccination trial that combines approaches from clinical trial methodology, infectious disease epidemiology, and applied public health, so that it can be implemented in resource-poor countries effectively during an emerging or on-going epidemic.</p>
-<p>Aside from infectious diseases, Kendra is also involved in research in geriatric medicine.</p>
+<div id="project-1" class="section level1">
+<h1>Project 1</h1>
+<div id="motivation" class="section level2">
+<h2>Motivation</h2>
+<p>Investigating the most effective distribution strategies for Ebola vaccine in infectious disease emergencies.</p>
 </div>
-<div id="education-training" class="section level1">
-<h1>Education &amp; Training</h1>
-<p>Kendra received her degree in clinical geriatric medicine and PhD in community medicine with a focus of infectious disease epidemiology from <a href="http://www.hku.hk">The University of Hong Kong</a>, where she was a Swire Schoar and a Postgraduate Scholarship recipient. She also holds a Postgraduate Diploma (PGDip) in Epidemology from <a href="https://www.lshtm.ac.uk">London School of Hygiene &amp; Tropical Medicine</a>, and an undergraduate and a Master’s degree in engineering from <a href="http://umich.edu">The University of Michigan, Ann Arbor</a>, USA. She was a visiting researcher at MRC Centre for Outbreak Analysis and Modelling (now <a href="https://www.imperial.ac.uk/mrc-outbreaks">MRC Centre for Global Infectious Disease Analysis</a>) of <a href="http://www.imperial.ac.uk">Imperial College London</a> in 2010-2011.</p>
+</div>
+<div id="project-2" class="section level1">
+<h1>Project 2</h1>
+<p><strong>Ref.:</strong> Wu KM, Riley S. Estimation of the basic reproductive number and mean serial interval of a novel pathogen in a small, well-observed discrete population. <em>PLoS One</em> 2016, 11(2): e0148061. <a href="https://doi.org/10.1371/journal.pone.0148061">[link]</a><a href="https://github.com/kendrawu/EpiInference">[source code]</a></p>
+<div id="why-was-this-study-done" class="section level2">
+<h2>Why Was This Study Done?</h2>
+<p>Accurately assessing the ability for a novel human pathogen to spread from one person to another (i.e., transmissibility) and the average time between these transmissions of each infector-infectee pair is a public health priority because the timing and required strength of interventions may therefore be determined. Recent theoretical work has focused on making the best use of data from the initial phase of an epidemic incidence in large populations<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.3136">[1]</a><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1750-2659.2009.00106.x">[2]</a><a href="https://academic.oup.com/biostatistics/article/12/2/303/280518">[3]</a><a href="https://academic.oup.com/aje/article/160/6/509/79472">[4]</a>. This study attempted to extend the work to assess the data of all phases of an epidemic in populations of all sizes, including small populations.</p>
+</div>
+<div id="methods" class="section level2">
+<h2>Methods</h2>
+<p>We measured how quickly a disease spread from one case to another by a parameter called the basic reproductive number <span class="math inline">\(R_0\)</span> (which is formally defined as the average number of infected cases per each typical infector in a susceptible population) and the serial interval (which is defined as the average time between successive cases) by its mean <span class="math inline">\(T_g\)</span>. First, we constructed a simulation algorithm for case data arising from a small population of known size with <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> also known. We then developed an inferential model for the likelihood of these case data as a function of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span>. The model was designed to capture a) any signal of the serial interval distribution in the initial stochastic phase, b) the growth rate of the exponential phase, and c) the unique combination of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> that generates a specific shape of peak incidence when the susceptible portion of a small population is depleted.</p>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+The basic reproductive number and mean serial interval can be estimated simultaneously in real time during an outbreak of an emerging respiratory pathogen (Figure 1). However, accurate final estimates could be obtained only much later in the outbreak.<br />
+<img src="figures/Fig1.PNG" /><br />
+
+<p class="caption">
+<strong>Figure 1</strong>: Part <strong>a</strong> shows real-time univariate estimates of <span class="math inline">\(R_0\)</span> in which the true value of <span class="math inline">\(T_g\)</span> was assumed known. Part <strong>b</strong> shows real-time univariate estimates of <span class="math inline">\(T_g\)</span> with <span class="math inline">\(R_0\)</span> assumed known. The results of jointly estimating <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> are shown in parts <strong>c</strong> (<span class="math inline">\(R_0\)</span>) and <strong>d</strong> (<span class="math inline">\(T_g\)</span>). This scenario is with <span class="math inline">\(R_0\)</span> = 1.8, <span class="math inline">\(T_g\)</span> = 2.5. The epidemic was simulated in a population of 1,000 people all of whom were initially susceptible, other than 50 who were infectious on day 1. Grey lines trace the corresponding estimates of 8 arbitrary epidemics. Black lines represent the average of 100 estimates at that time point, red lines represent the median, and the green dotted lines are the 5% and 95% prediction intervals for 100 epidemics. The dark blue solid horizontal lines show the true parameter values.
+</p>
+</div>
+<div id="what-do-these-findings-mean" class="section level2">
+<h2>What Do These Findings Mean?</h2>
+<p>Repeated application of these methods to small scale outbreaks at the start of an epidemic would permit accurate estimates of key parameters.</p>
+</div>
 </div>
 
 <html>
