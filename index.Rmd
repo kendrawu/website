@@ -30,6 +30,9 @@ Here is a word cloud generated from the text of her publications:
 * Mathematical modelling
 * Evolution of pathogens
 * Global health
+* Healthcare in conflicts
 
-# Current Project
-* [ADAGIO](https://kendrawu.github.io/website/about.html#research)
+# Current Projects
+[![](./figures/ADAGIO-logo_small.png)](https://kendrawu.github.io/website/about.html#research) 
+
+* Effects of tear gas to women
