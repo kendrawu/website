@@ -30,7 +30,7 @@ Here is a word cloud generated from the text of her publications:
 * Mathematical modelling
 * Evolution of pathogens
 * Global health
-* Healthcare in conflicts and disasters
+* Health in conflicts and disasters
 
 # Current Projects
 [![](./figures/ADAGIO-logo_small.png)](https://kendrawu.github.io/website/about.html#research) 
