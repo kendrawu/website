@@ -27,12 +27,11 @@ Here is a word cloud generated from the text of her publications:
 * Outbreak analysis and response
 * Emerging infections
 * Disease transmission dynamics
-* Mathematical modelling
+* Mathematical and statistical modelling
 * Evolution of pathogens
 * Global health
 * Health in conflicts and disasters
 
 # Current Projects
-[![](./figures/ADAGIO-logo_small.png)](https://kendrawu.github.io/website/about.html#research) 
-
+[![](./figures/ADAGIO-logo_small.png)](https://kendrawu.github.io/website/about.html#research)  
 * Effects of tear gas to women
