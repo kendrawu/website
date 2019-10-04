@@ -19,7 +19,7 @@ Her research uses mathematics and statistics to study the who, when, where, and 
 
 Kendra's focus has been on emerging and re-emerging pathogens, including respiratory pathogens, and more recently filoviruses and other priority pathogens focus by the [World Health Organization](https://www.who.int/blueprint/priority-diseases/en) and the [UK Vaccine Network](https://www.gov.uk/government/groups/uk-vaccines-network). 
 
-Currently at Oxford, she is a key member of a multi-institution NIHR project Adaptive Design And Genomics in Outbreaks (**ADAGIO**), in which she is designing, implementing, and evaluating a novel vaccination trial that combines approaches from clinical trial methodology, infectious disease epidemiology, and applied public health, so that it can be implemented in resource-deprived countries effectively during an emerging or on-going epidemic. 
+Currently at Oxford, she is a key member of a multi-institution NIHR project Adaptive Design And Genomics in Outbreaks (**ADAGIO**), in which she designs, implements, and evaluates a novel vaccination trial that combines approaches from infectious disease modelling, clinical trial methodology, and applied public health, so that the trial can be implemented in resource-deprived countries effectively during an emerging or on-going epidemic. 
 
 Aside from infectious diseases, Kendra is also involved in research in geriatric medicine, human rights, ethics, and health in conflicts/ disasters.
 
