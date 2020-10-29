@@ -13,7 +13,7 @@ navbar:
       href: KGF.html  
     #- text: "Talks"
     #  href: talks.html
-    - text: "Connect"
+    - text: "Contacts"
       href: contacts.html
 output:
   html_document:

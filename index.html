@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 <meta name="google-site-verification" content="OiGoJg0YL4IQo2iSqnbF1LOEX3hXesk3fsWRIbcs2Pc" />
@@ -83,7 +82,7 @@ h6 {
 }
 code {
   color: inherit;
-  background-color: rgba(199, 15, 193, 1);
+  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -263,6 +263,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -348,7 +354,10 @@ div.tocify {
   <a href="publications.html">Publications</a>
 </li>
 <li>
-  <a href="contacts.html">Contacts</a>
+  <a href="KGF.html">KGFoundation</a>
+</li>
+<li>
+  <a href="contacts.html">Connect</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -368,9 +377,10 @@ div.tocify {
 
 
 <hr />
+<!-- <img src="figures/my_photo.jpg" style="width:20%; border:10px solid; margin-right: 20px; margin-left: 20px" align="right">-->
 <div id="about" class="section level1">
 <h1>About</h1>
-<p>Dr. Kendra M. Wu is an infectious disease epidemiologist and modeller. 
+<p>Dr. Kendra M. Wu is a theoretical epidemiologist of infectious diseases.</p>
 <p>Here is a word cloud generated from the text of her publications: <img src="figures/wordcloud.jpg" style="width:80%; border:0px solid; margin-right: 10px; margin-left: 10px" align="centre"></p>
 </div>
 <div id="research-interests" class="section level1">
@@ -381,6 +391,7 @@ div.tocify {
 <li>Emerging infections</li>
 <li>Disease transmission dynamics</li>
 <li>Mathematical and statistical modelling</li>
+<li>Immunity</li>
 <li>Evolution of pathogens</li>
 <li>Health in conflicts and disasters</li>
 </ul>
@@ -390,7 +401,8 @@ div.tocify {
 <p><a href="https://kendrawu.github.io/website/about.html#research"><img src="figures/ADAGIO-logo_small.png" /></a></p>
 <ul>
 <li>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) epidemiology</li>
-<li>Influenza epidemiology</li>
+<li>Influenza epidemiology<br />
+</li>
 <li>Effects of tear gas to women</li>
 </ul>
 </div>
@@ -403,7 +415,7 @@ div.tocify {
 
 <body>
 
-<p>Copyright &copy; 2018-2020 Kendra M. Wu. All rights reserved. Last Update: 25 July 2020</p>
+<p>Copyright &copy; 2018-2020 Kendra M. Wu. All rights reserved. Last Update: 28 October 2020</p>
 
 </body>
 </html>
