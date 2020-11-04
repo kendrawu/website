@@ -9,6 +9,8 @@ navbar:
     #  href: projects.html
     - text: "Publications"
       href: publications.html
+    - text: "DiseaseAnalytics"
+      href: DiseaseAnalytics.html  
     - text: "KGFoundation"
       href: KGF.html  
     #- text: "Talks"
