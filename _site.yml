@@ -5,13 +5,13 @@ navbar:
   left:
     - text: "About"
       href: about.html
-    #- text: "Projects"
-    #  href: projects.html
+    - text: "Projects"
+      href: projects.html
     - text: "Publications"
       href: publications.html
     - text: "DiseaseAnalytics"
       href: DiseaseAnalytics.html  
-    - text: "KGFoundation"
+    - text: "KnGFoundation"
       href: KGF.html  
     #- text: "Talks"
     #  href: talks.html

@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Projects Highlights</title>
+<title>Recent Projects</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -87,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -236,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -264,6 +263,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -346,10 +351,19 @@ div.tocify {
   <a href="about.html">About</a>
 </li>
 <li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
   <a href="publications.html">Publications</a>
 </li>
 <li>
-  <a href="contacts.html">Connect</a>
+  <a href="DiseaseAnalytics.html">DiseaseAnalytics</a>
+</li>
+<li>
+  <a href="KGF.html">KnGFoundation</a>
+</li>
+<li>
+  <a href="contacts.html">Contacts</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -363,42 +377,36 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Projects Highlights</h1>
+<h1 class="title toc-ignore">Recent Projects</h1>
 
 </div>
 
 
-<div id="project-1" class="section level1">
-<h1>Project 1</h1>
-<div id="motivation" class="section level2">
-<h2>Motivation</h2>
-<p>Investigating the most effective distribution strategies for Ebola vaccine in infectious disease emergencies.</p>
+<div id="project-1-adaptive-designs-and-genomics-in-outbreaks-adagio" class="section level1">
+<h1>Project 1: Adaptive Designs And Genomics in Outbreaks (ADAGIO)</h1>
+<p>This study aims to formulate more effective strategies for vaccine trials in infectious disease emergencies.</p>
+<p>There are many components in this project. One of them is to construct transmission models to simulate a disease spread: This transmission dynamic model is to simulate a disease transmission that can be described in two parts: 1) a stochastic susceptible-exposed-infectious-removed-vaccinated (SEIRV) model that describes the epidemiological dynamics of the disease within a population; and 2) a network model that describes the spatial dynamics. The network model has three levels of model structure of clusters of varying sizes: i) small clusters, which may represent households or hospital wards; ii) communities of small clusters; and iii) a region of these communities. The rest of the document will assume these small clusters represent households, and each node within each household represent an individual.</p>
+<p>A potential infection occurs within the population if and only if there is a contact edge between two nodes, and there may be a contact edge between two nodes whether or not the nodes are from the same household or community. Rather, whether or not there is a contact edge between two nodes are determined by stochastic block network model (SBM), in which the probability of having contacts between individuals within the same cluster may be different from those that are between clusters. Subsequently, if there is a contact edge between two nodes, and one of them is an infectious (I) individual while the other is a susceptible (S), another stochastic block network model will determine whether there is a transmission edge between these two nodes.</p>
+<p>Infections are also introduced into the population randomly, that is, case importations occur to random clusters at different time points, and the disease importation rate, m, is defined as the number of cases per year arising completely independently from the population being studied. The per-timestep probability of infection for an individual in the population is proportional to the weighted sum of infectious cases in each cluster. Transmission through import case does not require a contact edge between two nodes.</p>
+<p>This transmission model is written with an intend that it is versatile enough so that it can be easily modified to describe a specific pathogen in a more specific setting if required. Or else, it can be used for comparing different pathogen(s) and/or different setting(s) using various parameter inputs. In terms of pathogens, this model can be applied to the following three scenarios: a) A pathogen that spreads sustainably between people in the community (e.g., influenza); b) A pathogen that spreads between people largely in hospitals or classrooms (e.g., SARS-CoV); and c) A pathogen that spreads in animal populations, but that can spillover and spread between humans unsustainably or otherwise (e.g., COVID-19, avian influenza, monkeypox).</p>
+<p>Publications:<br />
+(1) <strong>Wu KM</strong>, Cooper BS. Three-level structure transmission dynamic model for three scenarios: In community, nosocomial, and among animal population. [writing in progress]<br />
+(2) <strong>Wu KM</strong>, Cooper BS. ADAGIO: Adaptive design of randomized controlled trial in public health emergencies. [writing in progress]</p>
 </div>
+<div id="project-2-influenza-epidemiology" class="section level1">
+<h1>Project 2: Influenza Epidemiology</h1>
+<p>Accurately assessing the ability for a pathogen to spread from one person to another and the average time between these transmissions of each infector-infectee pair is a public health priority because the information guides control strategies. Based on the transmission of pandemic and seasonal influenza in 2009-2013 in Hong Kong, this project studies the epidemiological characteristics of the diseases, assess the risks of transmission and infection, as well as proposes and evaluates methods to improve these assessments.</p>
+<p>Publications:<br />
+(1) <strong>Wu KM</strong>, Riley S. Estimation of the basic reproductive number and mean serial interval of a novel pathogen in a small, well-observed discrete population. <em>PLoS One</em> 2016, 11(2): e0148061. DOI: <a href="https://doi.org/10.1371/journal.pone.0148061">10.1371/journal.pone.0148061</a> <a href="https://github.com/kendrawu/EpiInference">[source code]</a><br />
+(2) <strong>Wu KM</strong>, Riley S. Simulated-guided design of serological surveys of the cumulative incidence of influenza infection. <em>BMC Infect Dis</em> 2014, 14: 505. DOI: <a href="https://doi.org/10.1186/1471-2334-14-505">10.1186/1471-2334-14-505</a>.<br />
+(3) Kwok KO, Cowling BJ, Wei VW, <strong>Wu KM</strong>, Read JM, Lessler J, Cummings DA, Peiris JS, Riley S. Social contacts and the locations in which they occur as risk factors for influenza infection. <em>Proc R Soc B</em> 2014, 281(1789): 20140709. DOI: <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2014.0709">10.1098/rspb.2014.0709</a>.<br />
+(4) Riley S, Kwok KO, <strong>Wu KM</strong>, Ning DY, Cowling BJ, Wu JT, Ho LM, Tsang T, Lo S-V, Chu DKW, Ma ESK, Peiris JSM. Epidemiological characteristics of 2009 (H1N1) pandemic influenza based on paired sera from a longitudinal community cohort study. <em>PLoS Med</em> 2011, 8(6): e1000442. DOI: <a href="https://doi.org/10.1371/journal.pmed.1000442">10.1371/journal.pmed.1000442</a>.</p>
 </div>
-<div id="project-2" class="section level1">
-<h1>Project 2</h1>
-<p><strong>Ref.:</strong> Wu KM, Riley S. Estimation of the basic reproductive number and mean serial interval of a novel pathogen in a small, well-observed discrete population. <em>PLoS One</em> 2016, 11(2): e0148061. <a href="https://doi.org/10.1371/journal.pone.0148061">[link]</a><a href="https://github.com/kendrawu/EpiInference">[source code]</a></p>
-<div id="why-was-this-study-done" class="section level2">
-<h2>Why Was This Study Done?</h2>
-<p>Accurately assessing the ability for a novel human pathogen to spread from one person to another (i.e., transmissibility) and the average time between these transmissions of each infector-infectee pair is a public health priority because the timing and required strength of interventions may therefore be determined. Recent theoretical work has focused on making the best use of data from the initial phase of an epidemic incidence in large populations<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.3136">[1]</a><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1750-2659.2009.00106.x">[2]</a><a href="https://academic.oup.com/biostatistics/article/12/2/303/280518">[3]</a><a href="https://academic.oup.com/aje/article/160/6/509/79472">[4]</a>. This study attempted to extend the work to assess the data of all phases of an epidemic in populations of all sizes, including small populations.</p>
-</div>
-<div id="methods" class="section level2">
-<h2>Methods</h2>
-<p>We measured how quickly a disease spread from one case to another by a parameter called the basic reproductive number <span class="math inline">\(R_0\)</span> (which is formally defined as the average number of infected cases per each typical infector in a susceptible population) and the serial interval (which is defined as the average time between successive cases) by its mean <span class="math inline">\(T_g\)</span>. First, we constructed a simulation algorithm for case data arising from a small population of known size with <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> also known. We then developed an inferential model for the likelihood of these case data as a function of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span>. The model was designed to capture a) any signal of the serial interval distribution in the initial stochastic phase, b) the growth rate of the exponential phase, and c) the unique combination of <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> that generates a specific shape of peak incidence when the susceptible portion of a small population is depleted.</p>
-</div>
-<div id="results" class="section level2">
-<h2>Results</h2>
-The basic reproductive number and mean serial interval can be estimated simultaneously in real time during an outbreak of an emerging respiratory pathogen (Figure 1). However, accurate final estimates could be obtained only much later in the outbreak.<br />
-<img src="figures/Fig1.PNG" /><br />
-
-<p class="caption">
-<strong>Figure 1</strong>: Part <strong>a</strong> shows real-time univariate estimates of <span class="math inline">\(R_0\)</span> in which the true value of <span class="math inline">\(T_g\)</span> was assumed known. Part <strong>b</strong> shows real-time univariate estimates of <span class="math inline">\(T_g\)</span> with <span class="math inline">\(R_0\)</span> assumed known. The results of jointly estimating <span class="math inline">\(R_0\)</span> and <span class="math inline">\(T_g\)</span> are shown in parts <strong>c</strong> (<span class="math inline">\(R_0\)</span>) and <strong>d</strong> (<span class="math inline">\(T_g\)</span>). This scenario is with <span class="math inline">\(R_0\)</span> = 1.8, <span class="math inline">\(T_g\)</span> = 2.5. The epidemic was simulated in a population of 1,000 people all of whom were initially susceptible, other than 50 who were infectious on day 1. Grey lines trace the corresponding estimates of 8 arbitrary epidemics. Black lines represent the average of 100 estimates at that time point, red lines represent the median, and the green dotted lines are the 5% and 95% prediction intervals for 100 epidemics. The dark blue solid horizontal lines show the true parameter values.
-</p>
-</div>
-<div id="what-do-these-findings-mean" class="section level2">
-<h2>What Do These Findings Mean?</h2>
-<p>Repeated application of these methods to small scale outbreaks at the start of an epidemic would permit accurate estimates of key parameters.</p>
-</div>
+<div id="project-3-historical-perspective-to-mathematical-modelling" class="section level1">
+<h1>Project 3: Historical perspective to mathematical modelling</h1>
+<p>The COVID-19 pandemic has been widely benefited by mathematical modelling. These models range from estimating incidence, reproductive number, serial interval, excessive mortality and mobility. They also deliberate in-hospital stay, travel patterns, effectiveness of pharmaceutical and non-pharmaceutical interventions (NPI), vaccine allocation, and impact of co-infections with other infectious diseases. The use of modeling in infectious disease dates back to the work of Daniel Bernoulli in 1760 and 1766 on smallpox. This article discusses the history of the use of mathematical modelling.</p>
+<p>Publication:<br />
+(1) <strong>Wu KM</strong>, Riley S. Historical perspective to mathematical modelling. [writing in progress]</p>
 </div>
 
 <html>
@@ -409,7 +417,7 @@ The basic reproductive number and mean serial interval can be estimated simultan
 
 <body>
 
-<p>Copyright &copy; 2018-2019 Kendra M. Wu. All rights reserved. Last Update: 28 August 2019</p>
+<p>Copyright &copy; 2018-2020 Kendra M. Wu. All rights reserved. Last Update: 30 October 2020</p>
 
 </body>
 </html>
