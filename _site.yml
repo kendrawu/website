@@ -11,8 +11,8 @@ navbar:
       href: publications.html
     #- text: "DiseaseAnalytics"
     #  href: DiseaseAnalytics.html  
-    - text: "KnGFoundation"
-      href: KGF.html  
+    #- text: "KnGFoundation"
+    #  href: KGF.html  
     #- text: "Talks"
     #  href: talks.html
     - text: "Contacts"
